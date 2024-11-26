@@ -25,3 +25,11 @@ Example:
 10
 ...
 """
+
+x = 0
+
+while x > -1:
+    x = x + 2
+    print(x)
+    if x == 20:
+        break

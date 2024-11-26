@@ -17,3 +17,11 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+
+numberInput = int(input("Enter a number"))
+maxLimit = numberInput * 12
+number = 0
+
+while maxLimit > number:
+    number = numberInput + number
+    print(number, end=' ')
