@@ -11,6 +11,14 @@ after the number in the sequence is greater than 100:
 (2 points) 
 
 Example:
-1 1 2 3 5 ...
+0 1 1 2 3 5 ...
 """
+pn = 0
+nn = 1
+number = 0
 
+while number < 100:
+    print(number)
+    pn = nn
+    nn = number
+    number = pn + nn
